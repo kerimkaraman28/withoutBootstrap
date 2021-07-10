@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    background-color: rgba(5,255,255,0.3);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    top:20px;
+    border-radius: 2%;
+    bottom: 50px;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1em solid black;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: 20% 50%;
+    gap: 20%;
+}
+
+.name h1 {
+    text-align: center;
+    margin-top: 2.2em;
+}
+
+.row-2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.row-2-p {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.row-3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    padding-top: 5px;
+    margin-top: 50px;
+}
+
+.content-wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.content-wrapper h3 {
+    text-align: center;
+}
+
+.content-info-p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.row-1-5 {
+    display: grid;
+    grid-template-columns: 50% 25%;
+}
+
+.row-1-5 a {
+    display: inline-block;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
